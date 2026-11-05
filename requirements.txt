@@ -1,0 +1,12 @@
+# Python dependencies for StarFinder/Python_PlateSolving
+# Tested with Python 3.13 on Windows: StarPipeline_RAW.py and Fork_TwoThresholdCentroids/StarPipeline.py
+# run with exactly these versions.
+# Install with:  pip install -r requirements.txt
+
+numpy==2.5.4
+scipy==1.18.1        # >= 1.18 needed for NumPy 2.5 support; older SciPy warns about the NumPy version
+numba==0.68.0
+llvmlite==0.50.0     # compiler backend of numba, must match the numba version
+rawpy==0.27.1        # reads the Olympus .ORF RAW files
+matplotlib==3.10.3
+pillow==11.2.1       # reads the JPEG test frames

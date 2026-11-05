@@ -1,0 +1,14 @@
+# Python bytecode and Numba JIT caches (regenerated on first run)
+__pycache__/
+*.pyc
+*.nbi
+*.nbc
+
+# MATLAB autosave and backup files
+*.asv
+*.m~
+
+# Second set of RGB sensor test raws, not used by any script (~58 MB)
+TestData/red2.ORF
+TestData/green2.ORF
+TestData/blue2.ORF
